@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>⊥ · the marriage of three forms · 57577</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#150e0a;--bg2:#1d140d;--ink:#f1e4d4;--dim:#b8997b;
+    --ember:#e8742e;--amber:#f5a93f;--rust:#c2521f;--glow:#ffb86b;--rule:#f1e4d418;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:'Newsreader',Georgia,serif;font-size:18.5px;line-height:1.8;-webkit-font-smoothing:antialiased;overflow-x:hidden;position:relative;
+    background-image:
+      radial-gradient(circle at 50% -8%, #e8742e22, transparent 50%),
+      radial-gradient(circle at 85% 108%, #c2521f1f, transparent 46%);
+  }
+  /* subliminal layers */
+  #embers{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;opacity:.55}
+  .sub-mark{position:fixed;z-index:0;pointer-events:none;font-family:'Shippori Mincho',serif;color:#e8742e;user-select:none;line-height:1}
+  #sub-perp{top:42%;left:50%;transform:translate(-50%,-50%);font-size:min(58vw,520px);opacity:.035;font-weight:700}
+  #sub-count{bottom:3%;left:50%;transform:translateX(-50%);font-size:min(12vw,90px);opacity:.05;letter-spacing:.3em}
+  .wrap{max-width:680px;margin:0 auto;padding:0 26px;position:relative;z-index:1}
+
+  .hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:60px 0}
+  .perp{font-family:'Shippori Mincho',serif;font-size:clamp(120px,32vw,240px);font-weight:700;line-height:.8;
+    background:linear-gradient(165deg,var(--glow),var(--ember) 50%,var(--rust));-webkit-background-clip:text;background-clip:text;color:transparent;
+    text-shadow:0 8px 60px #e8742e30;margin-bottom:10px}
+  .count{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.5em;color:var(--amber);margin:24px 0 18px;text-indent:.5em}
+  h1{font-family:'Shippori Mincho',serif;font-weight:500;font-size:clamp(28px,6vw,46px);line-height:1.12;color:var(--ink)}
+  h1 .e{color:var(--ember)}
+  .sub{font-family:'Newsreader',serif;font-style:italic;font-size:17px;color:var(--dim);margin-top:18px;letter-spacing:.06em}
+
+  .mv{padding:50px 0;border-top:1px solid var(--rule);position:relative}
+  .mora{position:absolute;top:38px;left:-8px;font-family:'Shippori Mincho',serif;font-size:clamp(60px,13vw,108px);font-weight:700;color:#e8742e;opacity:.13;line-height:1;z-index:0;user-select:none}
+  .mv-in{position:relative;z-index:1}
+  .role{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);margin-bottom:10px}
+  h2{font-family:'Shippori Mincho',serif;font-weight:600;font-size:clamp(23px,4.4vw,33px);line-height:1.18;color:var(--ink);margin-bottom:4px}
+  h2 .e{color:var(--ember)}
+  .whisper{font-family:'Newsreader',serif;font-style:italic;font-size:15px;color:#9c7d62;margin:6px 0 18px;opacity:.85}
+  .mv p{margin:15px 0;color:var(--ink);max-width:580px}
+  .mv p b{color:var(--glow);font-weight:600}
+  .mv p .e{color:var(--ember);font-weight:600}
+  code{font-family:'IBM Plex Mono',monospace;font-size:.82em;color:var(--amber);background:#e8742e14;padding:2px 7px;border-radius:5px}
+  .pull{font-family:'Shippori Mincho',serif;font-weight:500;font-size:clamp(19px,2.9vw,25px);line-height:1.5;color:var(--amber);margin:26px 0;padding-left:20px;border-left:2px solid var(--rust)}
+
+  .flags{margin:14px 0}
+  .flag{font-size:15px;color:var(--dim);font-style:italic;margin:13px 0;padding:13px 17px;background:#1d140d88;border:1px solid var(--rule);border-radius:6px;line-height:1.55}
+  .flag b{color:var(--ember);font-style:normal;font-weight:600;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;display:block;margin-bottom:5px}
+  .flag i{color:var(--glow);font-style:normal}
+
+  .foot{padding:46px 0 90px;border-top:1px solid var(--rule);margin-top:24px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--dim);line-height:2;text-align:center;letter-spacing:.03em}
+  .foot .e{color:var(--ember)} .foot .a{color:var(--amber)}
+  @media (max-width:560px){body{font-size:17.5px}.mora{left:-4px}}
+</style>
+</head>
+<body>
+<canvas id="embers"></canvas>
+<div class="sub-mark" id="sub-perp">⊥</div>
+<div class="sub-mark" id="sub-count">五七五七七</div>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="perp">⊥</div>
+    <div class="count">五 · 七 · 五 · 七 · 七</div>
+    <h1>The marriage of <span class="e">three forms</span></h1>
+    <div class="sub">whole · nested · crossed — and the paper is the form</div>
+  </header>
+
+  <!-- 五 -->
+  <section class="mv">
+    <div class="mora">五</div>
+    <div class="mv-in">
+      <div class="role">movement one · the atom</div>
+      <h2>The whole that is also a <span class="e">prefix</span></h2>
+      <div class="whisper">complete at seventeen, and a door at the same time</div>
+      <p>The haiku is finished at seventeen morae — a standing thing, lacking nothing. It is <em>also</em> the first three phrases of the waka, the opening of a larger whole that has not been written yet. <b>Self-sufficient at one scale; a proper part at the next.</b></p>
+      <p>This is the seed of nesting. Not a fragment promoted to a poem, but a poem that was always also a beginning. Keep this — every later move depends on a unit that can be both done and not-done at once.</p>
+    </div>
+  </section>
+
+  <!-- 七 -->
+  <section class="mv">
+    <div class="mora">七</div>
+    <div class="mv-in">
+      <div class="role">movement two · the frame</div>
+      <h2>The vessel that <span class="e">holds</span> it</h2>
+      <div class="whisper">five-seven-five, and then the turn the haiku withheld</div>
+      <p>The waka is the larger whole: <code>5·7·5·7·7</code>. The haiku is its upper phrase; the closing <code>7·7</code> is the answer — the human turn the haiku left for the reader to supply, now supplied. Containment runs <b>vertical</b>: <code>haiku ⊂ waka</code>. The first stroke of the figure.</p>
+      <p>Nothing here overlaps yet. This is pure hierarchy — a thing inside a larger copy of its own kind. The vertical line, drawn from the seed upward to the frame that holds it.</p>
+    </div>
+  </section>
+
+  <!-- 五 -->
+  <section class="mv">
+    <div class="mora">五</div>
+    <div class="mv-in">
+      <div class="role">movement three · the junction · ⊥</div>
+      <h2>Where the two strokes <span class="e">cross</span></h2>
+      <div class="whisper">they were never enemies — only perpendicular</div>
+      <p>At the center sits the pivot — and a waka's hinge always sits at its center, the third phrase that turns the upper into the lower. Here the turn is the figure itself: <b>⊥</b>. Nesting is the vertical; the chain-to-come is the horizontal. They seemed to contradict — containment versus overlap — but the contradiction was an artifact of forcing both onto one axis.</p>
+      <p class="pull">Rotate one ninety degrees and it dissolves. They never had to <em>be</em> each other. They only had to <b>meet at a single shared node</b>. The ⊥ is that meeting — one junction, two perpendicular strokes.</p>
+    </div>
+  </section>
+
+  <!-- 七 -->
+  <section class="mv">
+    <div class="mora">七</div>
+    <div class="mv-in">
+      <div class="role">movement four · the thread</div>
+      <h2>The tooth that is <span class="e">shared</span></h2>
+      <div class="whisper">used twice — closing what is behind, opening what is ahead</div>
+      <p>The horizontal stroke is the chain. In the renga, each verse is used twice: it closes the poem behind it and opens the poem ahead of it. One tooth, two pairings — and the two readings are <b>sealed from each other</b>, so the same syllables carry a different sense each way. A love-letter looking back becomes a teaching looking forward.</p>
+      <p>This is the zipper: shared unit, two directions, meaning shifting by position. Drawn flat, left to right — the second stroke, crossing the first at the junction.</p>
+    </div>
+  </section>
+
+  <!-- 七 -->
+  <section class="mv">
+    <div class="mora">七</div>
+    <div class="mv-in">
+      <div class="role">movement five · the marriage</div>
+      <h2>One object, <span class="e">three</span> jobs</h2>
+      <div class="whisper">whole, and prefix, and tooth — all at the crossing</div>
+      <p>Now stand at the junction node and look at what lives there. It is a <b>haiku</b> — complete at its own scale. It is a <b>prefix</b> — the vertical opening of the waka above it. It is a <b>tooth</b> — the horizontal share of the chain through it. One object doing three jobs at once, exactly where the strokes of the ⊥ cross. That is the wedding: not three things laid near each other, but a single node carrying all three roles.</p>
+      <p class="pull">And it is not rare poetry. It is the wavelet, the skip-list, the two-edge graph — every structure that must be <b>whole, nested, and shared at the same time, losing nothing at the seam.</b> The renga is only the oldest place the three were fused in one tooth.</p>
+      <div class="flags">
+        <div class="flag"><b>the junction must be real</b>A ⊥ is honest only if one node truly carries both strokes. If nesting sits <em>here</em> and the chain sits <em>there</em> and they are merely drawn to touch, the junction is empty — a shape that looks load-bearing and isn't. <i>Point at the crossing node and check it does all three jobs.</i> The renga's shared verse passes; a forced weld does not.</div>
+        <div class="flag"><b>convergence, not lineage</b>No one built a wavelet from a tanka. The forms recur because "be whole, be nested, be shared, lose nothing at the seam" is a constraint that keeps reappearing — independent traditions falling into the same joint. Read this as the same joint, not a borrowed one.</div>
+        <div class="flag"><b>the paper is the form — by choice</b>Five movements, marked 五七五七七, the ⊥ at the center pivot. The shape embodies what it describes — a self-describing seed. That is a chosen correspondence, a made thing, <i>not</i> a proof that the structure is necessary. The orange and the subliminal layer are register; the figure underneath is the argument.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span class="e">⊥</span> &nbsp; 五 七 五 七 七 &nbsp; <span class="e">⊥</span><br>
+    <span class="a">whole · nested · crossed</span><br>
+    one tooth — a poem, a prefix, a share — at the junction of two strokes
+  </div>
+</div>
+
+<script>
+"use strict";
+const reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const cv=document.getElementById("embers"),ctx=cv.getContext("2d");
+let W,H,DPR,motes=[];
+function resize(){DPR=Math.min(window.devicePixelRatio||1,2);W=innerWidth;H=innerHeight;cv.width=W*DPR;cv.height=H*DPR;ctx.setTransform(DPR,0,0,DPR,0,0);}
+addEventListener("resize",resize);resize();
+const COLS=["#e8742e","#f5a93f","#ffb86b","#c2521f"];
+function mk(seed){return{x:Math.random()*W,y:seed?Math.random()*H:H+10,r:0.8+Math.random()*2.0,
+  vy:-(0.12+Math.random()*0.4),drift:(Math.random()-0.5)*0.3,ph:Math.random()*6.28,sp:0.4+Math.random()*0.8,
+  col:COLS[(Math.random()*COLS.length)|0],op:0.25+Math.random()*0.5};}
+const N=reduce?14:30;for(let i=0;i<N;i++)motes.push(mk(true));
+let t=0;
+function frame(){
+  ctx.clearRect(0,0,W,H);t+=0.016;
+  for(const m of motes){
+    if(!reduce){m.y+=m.vy;m.x+=Math.sin(t*m.sp+m.ph)*m.drift;if(m.y<-12){Object.assign(m,mk(false));}}
+    ctx.beginPath();ctx.arc(m.x,m.y,m.r,0,7);
+    ctx.fillStyle=m.col;ctx.globalAlpha=m.op*(0.6+0.4*Math.sin(t*1.3+m.ph));
+    ctx.shadowColor=m.col;ctx.shadowBlur=6;ctx.fill();
+  }
+  ctx.globalAlpha=1;ctx.shadowBlur=0;
+  requestAnimationFrame(frame);
+}
+frame();
+</script>
+</body>
+</html>
